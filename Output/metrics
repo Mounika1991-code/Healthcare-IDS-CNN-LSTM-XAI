@@ -1,0 +1,8 @@
+accuracy=98.60
+precision=99.23
+recall=98.48
+sensitivity=98.48
+specificity=98.60
+f1=98.85
+mcc=98.00
+auc=99.21
