@@ -31,6 +31,32 @@ The dataset is intentionally not pushed to GitHub.
    - explainability_heatmaps.npz
    - plots and evaluation results
 
+## Install Dependencies
+
+It's recommended to use a virtual environment. From the project root:
+
+Windows (PowerShell):
+
+```
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+macOS / Linux:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+You can also install packages individually:
+
+```
+pip install pandas numpy matplotlib seaborn scikit-learn tensorflow shap lime
+```
+
 ## How to Unzip and Use the Dataset
 If the downloaded dataset is provided as a ZIP file:
 1. Right-click the ZIP file and choose Extract All.
@@ -40,3 +66,6 @@ If the downloaded dataset is provided as a ZIP file:
 
 ## Keywords
 Electronic Patient Record (EPR); Intrusion Detection; Convolutional Neural Network (CNN); Long Short-Term Memory (LSTM); Explainable Artificial Intelligence (XAI); Grad-CAM++; Score-CAM; Healthcare Cybersecurity.
+
+## Contributors
+- Repository commit authors have been consolidated; if you previously saw `eashwini03` listed, the commit author information has been updated.
