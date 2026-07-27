@@ -67,5 +67,3 @@ If the downloaded dataset is provided as a ZIP file:
 ## Keywords
 Electronic Patient Record (EPR); Intrusion Detection; Convolutional Neural Network (CNN); Long Short-Term Memory (LSTM); Explainable Artificial Intelligence (XAI); Grad-CAM++; Score-CAM; Healthcare Cybersecurity.
 
-## Contributors
-- Repository commit authors have been consolidated; if you previously saw `eashwini03` listed, the commit author information has been updated.
